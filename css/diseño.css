@@ -1,0 +1,211 @@
+/*Diseño del cuerpo de la pagina web*/
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/*Encabezado de la pagina*/
+header{
+    background-color: #9cc4e4;
+    padding: 5px;
+}
+/*Navegador del sitio web*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-right: 2%;
+}
+/*configuracion de la imagen*/
+nav img{
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+/*estilo del navegador*/
+nav li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.navegador{
+    color: white;
+}
+/*Seccion de inicio, donde aparece la imagen de la casa de tus sueños*/
+#inicio{
+    background-image: url(/img/fondoInicio.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/*El numero de telefono*/
+#numTelefono{
+    padding: 70px;
+    
+}
+/*Esta parte es para crear un paralelogramo y darle un estilo al contacto*/
+.cont {
+    background-color: #1b325f;
+    width: 235px;
+    height: 20px; 
+    padding: 21px;
+    transform: skewX(-30deg); /* Ajusta el ángulo según sea necesario */
+    font-size: 15px;
+    color: white;
+}
+/*El eslogan del sitio web de bienes raices*/
+#eslogan{
+    position: relative;
+    width: 350px;
+    top: 5%;
+    left: 5%;
+    color: #f26c4f;
+    font-size: 20px;
+}
+/*-----------------------------------------------------------------------------------*/
+/*Seccion de acerca de... donde acomodamos la imagen y el texto a nuestro gusto*/
+#acercaDe{
+    background-color: #9cc4e4;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+/*Texto de lo que ofrece, en este caso es una pequeña descripcion*/
+#nosotros{
+    display: flex;
+    flex-direction: column;
+}
+#acerDe{
+    color: #1b325f;
+}
+#nosotros h2{
+    background-color: #e9f2f9;
+    transform: skewX(-20deg);
+    text-align: center;
+}
+#nosotros button{
+    padding: 15px;
+    font-size: 25 px;
+    border-radius: 20px;
+}
+#nosotros a{
+    text-decoration: none;
+    color: inherit;
+}
+#imgnosotros img{
+    position: relative;
+    left: 15%;
+    width: 80%;
+    height: 100%;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+}
+#imgnosotros img:hover{
+    filter: drop-shadow(15px 5px 5px #1b325f);
+}
+/*Seccion de la ubicacion*/
+#ubicacion{
+    display: grid;
+    background-color: #1b325f;
+    padding: 15px;
+}
+#ubicacion h4{
+    color: white;
+}
+#divIconos{
+    text-align: center;
+    margin: auto;
+    background-color: #e9f2f9;
+    border-radius: 15px;
+    padding: 5px;
+}
+#divIconos h2{
+    font-size: 40px;
+    transition: all 0.5s ease-in-out;
+}
+#divIconos h2:hover{
+    filter: drop-shadow(15px 5px 5px #1b325f);
+}
+.iconos{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    justify-content: space-around;
+}
+.iconosD{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 30px;
+    transition: all 0.5s ease-in-out;
+    padding: 5px;
+}
+.iconosD:hover{
+    background-color: #f26c4f;
+    border-radius: 10px;
+}
+.iconosD i{
+    font-size: 40px;
+}
+/**Como llegar*/
+#divComoLlegar{
+    display: flex;
+    flex-direction: row;
+}
+.comolleg{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    color: white;
+}
+#tituloUbi{
+    background-color: #e9f2f9;
+    transform: skewX(-30deg);
+    color: #1b325f;
+}
+#divLlegar button{
+    padding: 15px;
+    font-size: 25 px;
+    border-radius: 20px;
+}
+#divLlegar a{
+    text-decoration: none;
+    font-size: 15px;
+}
+/*Seccion de contacto*/
+#contacto{
+    background-color: #3a89c9;
+    padding: 15px;
+    display: flex;
+}
+.sectionCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#imgLocoContacto img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+.fomr{
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+#contacto h4{
+    display: flex;
+    flex-direction: column;
+    color: #e9f2f9;
+}
+#piePagina{
+    padding: 20px;
+    background-color: #1b325f;
+    color: #e9f2f9;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link rel="stylesheet" href="css/diseño.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-... (hash)" crossorigin="anonymous" />
+</head>
+<body>
+    <main>
+        <!--ENCABEZADO DONDE PONEMOS EL NAVEGADOR DE NUESTRA PAGINA WEB-->
+        <header>
+            <nav>
+                <img src="img/logo.jpg" alt="Logo de Bienes Raices">
+                <li><a href="#inicio" class="navegador">Inicio</a></li>
+                <li><a href="#acercaDe" class="navegador">Acerca de nosotros</a></li>
+                <li><a href="#ubicacion" class="navegador">Ubicación</a></li>
+                <li><a href="#contacto" class="navegador">Contacto</a></li>
+            </nav>
+        </header>
+        <!--SECCION DE INICIO DANDO UN POCO A CONOCER LO QUE ES NUESTRA PAGINA-->
+        <section id="inicio">
+            <div id="numTelefono">
+                <h3 class="cont">Llamanos al <a href="#contacto" class="cont">332-333-33-33</a></h3>
+            </div>
+            <div id="eslogan">
+                <h2 class="esl">¡La casa de tus sueños!</h2>
+                <h3 class="esl">Terrenos desde 120m²</h3>
+            </div>
+        </section>
+        <!--SE HABLA ACERCA DE LA COMPAÑIA DE BIENES Y RAICES-->
+        <section id="acercaDe">
+            <div id="nosotros">
+                <h4 id="acerDe">Acerca de nosotros</h4>
+                <h2>Descubre nuestras propiedades que se acomoden a tu gusto.</h2>
+                <h3>El nuevo desarrollo que cambiara tu vida, cuenta con 200 unidades 
+                    privadas desde 120 m² cada una.
+                </h3>
+                <p>La vida que siempre quisiste llevar, en medio de abundante naturaleza</p>
+                <p>Ubicados en una de las zonas mas comerciales de la ciudad, tus hijos 
+                    podran disfrutar de la alberca y de juegos infantiles.
+                </p>
+                <button><a href="ventanas/masInfo.html">MAS INFORMACIÓN</a></button>
+            </div>
+            <div id="imgnosotros">
+                <img src="img/familia.jpg" alt="">
+            </div>
+        </section>
+        <!--SECCION DE LA UBICACION QUE TIENE EL LUGAR DEL FRACCIONAMIENTO-->
+        <section id="ubicacion">
+            <h4>Ubicación</h4>
+            <div id="divIconos">
+                <h2>Todo cerca de ti</h2>
+                    <div class="iconos">
+                        <div class="iconosD">
+                            <i class="fa-solid fa-school"></i>  <span>Escuela</span>
+                        </div>
+                        <div class="iconosD">
+                            <i class="fa-solid fa-cart-shopping"></i>   <span>Supermercado</span>
+                        </div>
+                        <div class="iconosD">
+                            <i class="fa-solid fa-place-of-worship"></i>    <span>Plazas y centro comerciales</span>
+                        </div>
+                        <div class="iconosD">
+                            <i class="fa-solid fa-hospital"></i>    <span>Hospitales</span>
+                        </div>
+                    </div>
+                    <div class="iconos">
+                        <div class="iconosD">
+                            <i class="fa-solid fa-ticket"></i>  <span>Cines y entretenimiento</span>
+                        </div>
+                        <div class="iconosD">
+                            <i class="fa-solid fa-building"></i>    <span>Empresas</span>
+                        </div>
+                        <div class="iconosD">
+                            <i class="fa-solid fa-shop"></i>    <span>Servicios publicos y generales</span>
+                        </div>
+                    </div>
+            </div>
+            <div id="divComoLlegar">
+                <div  class="comolleg" id="divLlegar">
+                    <h2 id="tituloUbi">La casa de tus sueños</h2>
+                    <p>Ubicado en Av. Los Robles y Av. Juan Gil Preciado, a unos pasos de Av. Camino Viejo a Tesistan</p>
+                    <button><a href="ventanas/maps.html">MAS INFORMACIÓN</a></button>
+                </div>
+                <div class="comolleg">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3123.7492551995992!2d-103.4223333!3d20.7503889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDQ1JzAxLjQiTiAxMDPCsDI1JzIwLjQiVw!5e1!3m2!1ses-419!2smx!4v1709478997063!5m2!1ses-419!2smx" 
+                    width="600" 
+                    height="450" 
+                    style="border:solid 3px color(srgb rgb(110, 30, 30) rgb(107, 128, 107) rgb(255, 255, 255))" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!--PARTE DONDE ESTA EL ENCABEZADO DEL CONTACTO-->
+        <section id="contacto">
+            <h4>Contacto</h4>
+            <div id="imgLocoContacto" class="sectionCont">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div id="datosContacto" class="sectionCont">
+                <h2>Datos de contacto</h2>
+                <h3>Teléfonos</h3>
+                <p>332-333-33-33</p>
+                <p>321-654-98-77</p>
+                <h3>Correo electrónico</h3>
+                <p>bienes_raices@gmail.com</p>
+            </div>
+            <!--FORMULARIO-->
+            <div id="contactoForm" class="sectionCont">
+                <input type="text" placeholder="Nombre completo" class="form">
+                <input type="email" placeholder="Correo electronico" class="form">
+                <input type="number" placeholder="Telefono" class="form">
+                <input type="text" placeholder="Mensaje" class="form">
+                <button>ENVIAR</button>
+            </div>
+        </section>
+        <footer id="piePagina">Todos los derechos reservados</footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/*Encabezado de la pagina*/
+header{
+    background-color: #9cc4e4;
+    padding: 5px;
+}
+/*Navegador del sitio web*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-right: 2%;
+}
+/*configuracion de la imagen*/
+nav img{
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+/*estilo del navegador*/
+nav li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.navegador{
+    color: white;
+}
+/*-------------------------------------------------------*/
+/*seccion de casas*/
+/*/**Casa grande/*/
+#tituloCasas{
+    display: flex;
+    justify-content: center;
+    background-color: #f26c4f;
+    padding: 15px;
+    font-size: 25px;
+}
+
+/*todas las casas*/
+.seccionesCasas{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    
+}
+#seCasaG{
+    background-color: #3a89c9;
+}
+#casaimgG img{
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
+#casaimg h2{
+    font-size: 30px;
+
+}
+#casaimg{
+    margin: 1%;
+}
+.textoCasaG {
+    text-align: justify;
+    position: relative;
+    width: 700px;
+    margin: 4%;
+}
+/*Casa mediana*/
+#casaimgM img{
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+#seCasaM{
+    background-color:  #f26c4f;
+}
+#txtCM{
+    margin: 8%;
+}
+/*Casa Chica*/
+#casaimgC img{
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+}
+#seCasaCh{
+    background-color: #9cc4e4;
+}
+#txtCC{
+    margin: 8.2%;
+}
+#piePagina{
+    padding: 20px;
+    background-color: #1b325f;
+    color: #e9f2f9;
+}

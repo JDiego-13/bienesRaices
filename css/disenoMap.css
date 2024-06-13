@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+/*Encabezado de la pagina*/
+header{
+    background-color: #9cc4e4;
+    padding: 5px;
+}
+/*Navegador del sitio web*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    padding-right: 2%;
+}
+/*configuracion de la imagen*/
+nav img{
+    margin-right: 10px;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+/*estilo del navegador*/
+nav li{
+    list-style-type: none;
+    font-size: 20px;
+}
+.navegador{
+    color: white;
+}
+
+#tituloComo{
+    display: flex;
+    justify-content: center;
+    background-color: #e9f2f9;
+}
+#zonaLugar{
+    display: flex;
+    flex-direction: column;
+    background-color: #e9f2f9;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+}
+#zonaLugar p{
+    margin: 30px;
+}
+#piePagina{
+    padding: 20px;
+    background-color: #1b325f;
+    color: #e9f2f9;
+}
